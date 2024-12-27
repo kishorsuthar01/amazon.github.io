@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+  background-color: rgb(0, 0, 0);
+height: 60px;
+color: white;
+display: flex;
+align-items: center ;
+justify-content: space-evenly;
+}
+.nav-logo{
+  height: 60px;
+  width: 100px;
+}
+.border:hover{
+border: 2px solid white;
+}
+.logo{
+  height: 60px;
+  width: 100%;
+  background-image: url(a.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icon-first{
+  font-size: 0.9rem;
+  margin-left: 15px;
+}
+.icon-second{
+  height: 1rem;
+  margin-left: 7px;
+  font-weight: bold;
+}
+.icon{
+  display: flex;
+align-items: center;
+}
+
+
+.nav-search{
+margin-left: 15px;
+  display: flex;
+  width: 650px;
+  height: 40px;
+  border-radius: 4px;
+  justify-content: space-evenly;
+}
+
+.select-search{
+width: 50px;
+border: none;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+text-align: center;
+}
+.input-search
+{
+width: 100%;
+border: none;
+font-size: 16px;
+}
+.search-icon{
+justify-content: center;
+align-items: center;
+display: flex;
+width: 45px;
+color: black;
+border-bottom-right-radius: 4px;
+border-top-right-radius: 4px;
+background-color: rgb(252, 183, 54);
+}
+
+span{
+  font-size:12px;
+  display: flex;
+}
+.account{
+  font-weight: bold;
+}
+.cart i{
+  font-size:  23px;
+}
+.cart{
+ font-weight: bold;
+ font-size: 14px;
+}
+
+.panel{
+  color: white;
+  height: 40px;
+  display: flex;
+  background-color:#222f3d;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.panel-name p{
+  display:inline;
+  padding: 10px;
+
+}
+.panel-name{
+  width: 70%;
+  margin-left: 20px;
+}
+.shop{
+  font-weight: bold;
+  text-transform: capitalize
+}
+.hero-section{
+  background-image: url(amazon1.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg{
+  height: 40px;
+  background-color: white;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+.hero-msg a{
+  color: rgb(57, 32, 32);
+}
+
+.shop-section{
+  flex-wrap: wrap;
+display: flex;
+justify-content: space-evenly;
+background-color: rgb(255, 214, 255);
+}
+.box{
+  height: 350px;
+  width: 300px;
+
+  background-color: white;
+  margin-top: 20px;
+}
+
+.container a{
+  color: rgb(57, 32, 32);
+  text-decoration: none;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+.bike-img{
+  height: 260px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+.container h2{
+font-size: 18px;
+margin: 15px;
+}
+footer{
+  margin-top: 20px;
+}
+.footer-panel{
+  display: flex;
+  height: 40px;
+  background-color: #37475a;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-panel2{
+  background-color: #222f3d;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+color: white;
+}
+ul{
+  margin-top: 20px;
+}
+ul a{
+  display: block;
+  color: white;
+  text-decoration: none;
+
+  margin-top: 10px;
+}
+ul a:hover{
+  text-decoration: underline;
+}
+ul p{
+  font-weight: bold;
+}
+.parahraph{
+  background-color:#141e28;
+  height: 60px;
+  padding-top: 10px;
+}
+.ph{
+  text-align: center;
+
+}
+.ph a{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+.ph a:hover{
+  text-decoration: underline;
+}
+.pg {
+  text-align: center;
+
+}
+.pg p{
+  padding-top: 5px;
+  color: white;
+}
